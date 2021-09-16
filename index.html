@@ -5,12 +5,22 @@
 		<meta charset="utf-8">
 		<link rel="manifest" href="manifest.json">
 		<title>Llanedi Park Inspection</title>
-		<meta name="description" content="Landing page">
+		
+	<meta name="description" content="Landing page">
 		<meta name="author" content="Jonathan Kemp">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<link rel="stylesheet" href="css/spur.css">
-		
+		<script>if('serviceWorker' in navigator) {
+  let registration;
+
+  const registerServiceWorker = async () => {
+    registration = await          navigator.serviceWorker.register('./service-worker.js');
+  };
+
+  registerServiceWorker();
+}
+</script>
 	
 	</head>
 
