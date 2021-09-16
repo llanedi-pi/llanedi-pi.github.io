@@ -9,7 +9,8 @@
 			let registration;
 		
 			const registerServiceWorker = async () => {
-				registration = await          navigator.serviceWorker.register('./service-worker.js');
+				registration = await          
+				navigator.serviceWorker.register('./service-worker.js');
 			};
 		
 			registerServiceWorker();
@@ -35,8 +36,10 @@
 		<div id="line" style="background-color: #cccccc;">
 			<p id="demo" style="margin-block-start: 0px; margin-block-end: 0px;"></p>
 		</div>
-		<div style="display: flex;"
-		<div id="listnav" style="display: grid; grid-template-columns: 300px 300px 300px 300px; grid-template-areas: 'one two three fore''five six seven eight';">
+
+<div style="display: flex">
+		<div id="listnav" style="display: grid; grid-template-columns: 25% 25% 25% 25%; grid-template-areas: 'one two three fore''five six seven eight';">
+
 			
 			<a id="one" href="report/Bronallt.html" style="display: grid; grid-area: one; text-align: center;">Bronallt Park
 			</a>
