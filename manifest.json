@@ -5,7 +5,7 @@ CACHE:
 index.html
 manifest.json
 favicon.ico
-
+service-worker.js
 css/a4-try-print.css
 css/a4-try.css
 css/spur.css

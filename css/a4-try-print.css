@@ -93,7 +93,7 @@ html, body {
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 12pt;
-	table-column: 9cm, 3cm;
+	column-width: 9cm, 3cm;
 }
 /*  td question  */
 .quest {
@@ -119,6 +119,15 @@ td {
   font-size: 12pt;
 }
 
+.button5 {
+	border-radius: 50%;
+	font-size: 16px;
+	background-color: #666666;
+	color: black;
+	width: 50px;
+	text-align: center;
+	}
+
 .up-photo, #output, .thumbnail {
     grid-area: up-photo;
     text-align: center;
@@ -140,6 +149,8 @@ td {
 		#files {visibility: hidden;}
 		#result {visibility: visible;}
 		#btn2 {visibility: hidden;}
+		.fquest {visibility: visible;}
+		.button5 {visibility: hidden;}
 	footer {
 		page-break-after: always;
 	}
