@@ -126,12 +126,9 @@ td {
 	color: black;
 	width: 60px;
 	text-align: center;
-	justify: center;
 	}
 	
-a {
-	max-width: 100%;
-}
+
 
 .up-photo, #output, .thumbnail {
     grid-area: up-photo;
