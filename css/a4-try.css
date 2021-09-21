@@ -125,6 +125,7 @@ td {
 	color: black;
 	width: 60px;
 	text-align: center;
+	justify: center;
 	}
 
 .up-photo, #output, .thumbnail {
