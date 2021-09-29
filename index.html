@@ -1,72 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link rel="manifest" href="manifest.json">
-		<title>Llanedi Park Inspection</title>
-		
-	<meta name="description" content="Landing page">
-		<meta name="author" content="Jonathan Kemp">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!--link rel="stylesheet" href="css/spur.css"-->
-		<link rel="stylesheet" href="css/a4-try.css">
-		<script>if('serviceWorker' in navigator) {
-  let registration;
+<head>
+    <meta charset="utf-8">
+    <link rel="manifest" href="manifest.json">
 
-  const registerServiceWorker = async () => {
+    <title>Llanedi Park Inspection</title>
+    <meta name="description" content="Landing page">
+    <meta name="author" content="Jonathan Kemp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/a4-try.css" type="text/css">
+    <script type="text/javascript">
+if('serviceWorker' in navigator) {
+    let registration;
+
+    const registerServiceWorker = async () => {
     registration = await          navigator.serviceWorker.register('./service-worker.js');
-  };
+    };
 
-  registerServiceWorker();
-}
-</script>
-	
-	</head>
+    registerServiceWorker();
+    }
+    </script>
+</head>
 
-	<body>
-		<div id="topheader" style="display: grid; grid-template-columns: 10% 30% 50% 10%; grid-template-areas: 'lefth hpic tex righth'; background-color: #666666; width: 100%; height: auto;">
-			<img src="img/logo.gif" alt="logo" style="display: grid; grid-area: hpic; width: 100px; height: auto;">
-			<div id="tex" style="display: flex; align-items: center; grid-area: tex; text-align: center; width: 100%; height: auto;">
-				<h1 id="tex2" style="display: flex; justify-content: center; align-content: center; margin: 0px; width: 100%; height: auto;">LLANEDI COMMUNITY COUNCIL<br>PARK INSPECTION</h1>
-			</div>
-		</div>
-		<div id="line" style="background-color: #cccccc;">
-			<p id="demo" style="margin-block-start: 0px; margin-block-end: 0px;"></p>
-		</div>
-<!--div style="display: flex"-->
-		<div id="listnav" style="display: grid; grid-template-columns: 25% 25% 25% 25%; grid-template-areas: 'one two three fore''five six seven eight';">
-			
-			<a id="one" href="report/Bronallt.html" class="button5" style="grid-area: one; text-align: center;">Bronallt Park
-			</a>
-			
-			<a id="two" href="report/Coopers.html" class="button5" style="grid-area: two; text-align: center;">Coopers Park
-			</a>
-			
-			<a id="three" href="report/Hendy_Park.html" class="button5" style="grid-area: three; text-align: center;">Hendy Park
-			</a>
-			
-			<a id="fore" href="report/Hendy_muga.html" class="button5" style="grid-area: fore; text-align: center;">Hendy Park Muga
-			</a>
-			
-			<a id="five" href="report/Llanedi.html" class="button5" style="grid-area: five; text-align: center;">Llanedi Park
-			</a>
-			
-			<a id="seven" href="report/Mill_Teraces.html" class="button5" style="grid-area: six; text-align: center;">Mill Terrace Park
-			</a>	
-			
-			<a id="eight" href="report/Tycroes.html" class="button5" style="grid-area: seven; text-align: center;">Tycroes Park
-			</a>
-			
-		</div>
-		<footer style="display: block; margin: auto; text-align: center;">
-			<p>Author: Jonathan Kemp</p>
-			<p><a href="mailto:jwbk@gmx.com">jwbk@gmx.com</a></p>
-		</footer>
-	</body>
-	<script>
-		var d = new Date();
-		document.getElementById("demo").innerHTML = d;
-	</script>
+<body>
+    <div id="topheader" style="display: grid; grid-template-columns: 10% 30% 50% 10%; grid-template-areas: 'lefth hpic tex righth'; background-color: #666666; width: 100%; height: auto;">
+        <img src="img/logo.gif" alt="logo" style="display: grid; grid-area: hpic; width: 100px; height: auto;">
+
+        <div id="tex" style="display: flex; align-items: center; grid-area: tex; text-align: center; width: 100%; height: auto;">
+            <h1 id="tex2" style="display: flex; justify-content: center; align-content: center; margin: 0px; width: 100%; height: auto;">LLANEDI COMMUNITY COUNCIL<br>
+            PARK INSPECTION</h1>
+        </div>
+    </div>
+
+    <div id="line" style="background-color: yellow;">
+        <p id="demo" style="margin-block-start: 0px; margin-block-end: 0px;"></p>
+    </div><!--div style="display: flex"-->
+
+    <div id="listnav" style="background-color: #666666;">
+        <div id="parks" style=" display: grid; grid-template-columns: 25% 25% 25% 25%; grid-template-areas: 'one two three fore''five six seven eight';">
+        <div id="one" class="button5">
+            <div class="button2">
+                <a id="Bronallt" class="button5" href="report/Bronallt.html">Bronallt Park</a>
+            </div>
+        </div>
+        <div id="two" class="button5">
+            <div class="button2">
+                <a id="Coopers" class="button5" href="report/Coopers.html">Coopers Park</a>
+            </div>
+        </div>
+        <div id="three" class="button5">
+            <div class="button2">
+                <a id="Hendy_Park" class="button5" href="report/Hendy_Park.html">Hendy Park</a>
+            </div>
+        </div>
+        <div id="fore" class="button5">
+            <div class="button2">
+				<a id="Hendy_muga" class="button5" href="report/Hendy_muga.html">Hendy Park Muga</a>
+            </div>
+        </div>
+		
+        <div id="five" class="button5">
+            <div class="button2">
+                <a id="Llanedi" class="button5" href="report/Llanedi.html">Llanedi Park</a>
+            </div>
+        </div>
+        <div id="six" class="button5">
+            <div class="button2">
+                <a id="Mill_Teraces" class="button5" href="report/Mill_Teraces.html">Mill Terrace Park</a>
+            </div>
+        </div>
+        <div id="seven" class="button5">
+            <div class="button2">
+                <a id="Tycroes" class="button5" href="report/Tycroes.html">Tycroes Park</a>
+            </div>
+        </div>
+    </div>
+	</div>
+
+    <footer style="display: block; margin: auto; text-align: center;">
+        <p style="font-size: 8pt;">Author: Jonathan Kemp</p>
+
+        <p><a style="font-size: 8pt;" href="mailto:jwbk@gmx.com">jwbk@gmx.com</a></p>
+    </footer><script type="text/javascript">
+            var d = new Date();
+                document.getElementById("demo").innerHTML = d;
+    </script>
+</body>
 </html>
