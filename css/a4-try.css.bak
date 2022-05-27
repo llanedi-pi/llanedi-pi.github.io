@@ -143,8 +143,7 @@ td {
 }
 /* hidden elemants */
 @media print {
-	body {visibility: visible;
-	-webkit-print-color-adjust: exact !important;}
+	body {visibility: visible;}
 		form {visibility: visible;}
 		#btn {visibility: hidden;}
 		#photo {visibility: hidden;}
