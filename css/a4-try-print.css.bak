@@ -6,7 +6,7 @@ html, body {
     font-size: 12pt;
     font-family: font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
-    -webkit-print-color-adjust: exact !important; 
+     -webkit-print-color-adjust: exact !important; 
 }
 /*  <div id="header">for logo  */
 #header {
