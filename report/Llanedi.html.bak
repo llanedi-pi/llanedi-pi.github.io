@@ -557,15 +557,7 @@
 
                 <th><b>Safe, Risk, N/A</b></th>
             </tr>
-<tr>
-                <td class="quest">Are all nuts, bolts, and caps secure</td>
-<td><select name="safty">
-<option selected="selected" value="Pick">Pick One</option>
-<option value="safe">safe</option>
-<option value="risk">risk</option>
-<option value="n/a">n/a</option>
-</select></td>
-            </tr>
+
             <tr>
                 <td class="quest">Dose structures appear to be in safe working order</td>
 

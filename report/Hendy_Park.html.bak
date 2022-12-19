@@ -1195,7 +1195,34 @@
                    </tr>
                </table>
            </div>
-						
+						<div class="mtabel">  <!--blue-silver seat/hut-->
+							<table class="fquest">
+								<tr>
+									<th><b>blue-silver seat/hut</b></th>
+									<th><b>Safe, Risk, N/A</b></th>
+								</tr>
+								<tr>
+									<td class="quest">Is there any damage of vandalism</td>
+									<td><select name="safty">
+											<option selected="selected" value="Pick">Pick One</option>
+											<option value="safe">safe</option>
+											<option value="risk">risk</option>
+											<option value="n/a">n/a</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td class="quest">Are all bolt and nuts secure</td>
+									<td><select name="safty">
+											<option selected="selected" value="Pick">Pick One</option>
+											<option value="safe">safe</option>
+											<option value="risk">risk</option>
+											<option value="n/a">n/a</option>
+										</select>
+									</td>
+								</tr>
+							</table>
+						</div>
 						<div class="mtabel">		<!--K  SIGNATURE -->
 							<table class="fquest">
 								<div class="sig">

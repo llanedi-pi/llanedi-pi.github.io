@@ -384,10 +384,10 @@
         </table>
     </div>
 
-	<div class="mtabel">  <!--CLIMBING FRAME -->
+	<div class="mtabel">  <!--WOODEN CLIMBING FRAME -->
         <table class="fquest">
             <tr>
-                <th><b>CLIMBING FRAME</b></th>
+                <th><b>WOODEN CLIMBING FRAME</b></th>
                 <th><b>Safe, Risk, N/A</b></th>
             </tr>
             <tr>
@@ -436,7 +436,7 @@
                 </select></td>
             </tr>
             <tr>
-                <td class="quest">is the slide secure</td>
+                <td class="quest">is the slide splinter free</td>
                 <td class="safty"><select name="safty">
                     <option selected="selected" value="Pick">
                         pick One
@@ -453,7 +453,7 @@
                 </select></td>
             </tr>
 			<tr>
-                <td class="quest">Is the climbing wall secure</td>
+                <td class="quest">Is the rope ladder free from damage</td>
                 <td class="safty"><select name="safty">
                     <option selected="selected" value="Pick">
                         pick One
@@ -911,7 +911,7 @@
                 </select></td>
             </tr>
  <tr>
-                <td class="quest">Is there any decay/splitting wood</td>
+                <td class="quest">Is there any corrosion</td>
                 <td class="safty"><select name="safty">
                     <option selected="selected" value="Pick">
                         Pick One
