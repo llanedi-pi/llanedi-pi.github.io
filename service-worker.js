@@ -28,6 +28,7 @@ const filesToCache = [
   '/report/Llanedi.html',
   '/report/Mill_Teraces.html',
   '/report/Tycroes.html',
+  '/report/Talyclun_park.html',
   '/webfonts/svgs/bars-solid.svg',
   '/webfonts/svgs/chair-solid.svg',
   '/webfonts/svgs/child-solid.svg',
