@@ -3,13 +3,11 @@
 	<head>
 	<meta charset="utf-8">
 	<link rel="manifest" href="../manifest.json">
-	<meta http-equiv="content-type" content="multipart/form-data" charset="UTF-8">
-	<title>Talyclun Park</title>
-		<meta name="description" content="document">
-		<meta name="author" content="Jonathan Kemp">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../css/a4-try.css" media="screen">
-	<link rel="stylesheet" href="../css/a4-try-print.css" media="print">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<title>Talyclun Park</title>
+		<link rel="stylesheet" href="../css/a4-try.css" media="screen">
+		<link rel="stylesheet" href="../css/a4-try-print.css" media="print">
 	</head>		
 	<body>
 		<form>
