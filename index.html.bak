@@ -75,6 +75,11 @@ if('serviceWorker' in navigator) {
                 <a id="Tycroes" class="button5" href="report/Tycroes.html">Tycroes Park</a>
             </div>
         </div>
+		<div id="seven" class="button5">
+            <div class="button2">
+                <a id="quest-all" class="button5" href="report/quest-all.html">quest-all</a>
+            </div>
+        </div>
     </div>
 	</div>
 
